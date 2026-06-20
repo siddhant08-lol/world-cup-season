@@ -111,6 +111,152 @@
     background:black;
    }
 
+
+
+.hero-sec{
+    padding:4rem 2rem;
+    background-color:#e0bbe4;
+}
+.hero-con{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    max-width:1200px;
+    margin:auto;
+    gap:2rem;
+    flex-wrap:wrap;
+}
+
+    .hero-txt{
+flex:1 1 500;
+        
+        
+    }
+
+    .hero-txt h1{
+        
+ font-size:2.5rem;
+ margin-bottom:1rem;
+ color:#111827;           
+           
+    }
+
+  .hero-txt p{
+    font-size:1.1rem;
+    color:#4b5563;
+    margin-bottom:2rem;
+  }      
+
+    
+  .hero-btn{
+    background-color:purple;
+    color:white;
+    padding: 0.75rem 1.5rem;
+    border-radius:999px;
+    text-decoration:none;
+    font-weight:500;
+    transition:background 0.3s ease;
+    padding-bottom:10px;
+
+  }
+
+            .hero-btn:hover{
+                background-color:#4338ca;
+            }
+
+    .hero-btn i {
+        margin-right:0.5rem;
+    }     
+    
+  .hero-img{
+    flex:1 1 400;
+    text-align:center;
+  }  
+
+  .hero-img img{
+    max-width:100%;
+    border-radius:50%;
+
+
+  }
+
+
+.categories-sec{
+    padding:4rem 2rem;
+    background-color:#ffffff;
+    text-align:center;
+}
+.sec-hed{
+    font-size:2rem;
+    color:#111827;
+    margin-bottom:0.5rem;
+
+}
+       .sec-hed p{
+        color:#6b7280;
+        margin-bottom:2rem;
+       }
+
+  .cate-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+    gap:2rem;
+    max-width:1100px;
+    margin:0 auto;
+  }     
+
+  .cate-card{
+    background-color:#f9fafb;
+    padding:2rem 1.5rem;
+    border-radius:1rem;
+    box-shadow:0 4px 12px rgba(0,0,0,0.5);
+    transition:transform 0.3s ease;
+  }
+
+
+        .cate-card:hover{
+            transform:translateY(-5px);
+        }
+
+   .cate-card i {
+    font-size:2rem;
+    color:skyblue;
+    margin-bottom:1rem;
+   } 
+   
+   
+     .cate-card h3{
+        margin-bottom:0.5rem;
+        color:#111827;
+        font-size:1.2rem;
+     }
+
+
+  .cate-card a{
+    text-decoration:none;
+    color:skyblue;
+    font-weight:500;
+    transition:color 0.3s ease;
+  }  
+   .cate-card a:hover{
+    color:#3730a3;
+   } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    @media (max-width:850px){
     .nav-links{
         display:flex;
